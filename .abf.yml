@@ -1,2 +1,4 @@
+removed_sources:
+  Module-Depends-0.15.tar.gz: 6ec0eb3a05ae799fff51d9ea35751099b60f1a5e
 sources:
-  "Module-Depends-0.15.tar.gz": 6ec0eb3a05ae799fff51d9ea35751099b60f1a5e
+  Module-Depends-0.16.tar.gz: 6b8970a0f3eae40d66da6411899f920a37a4abf2

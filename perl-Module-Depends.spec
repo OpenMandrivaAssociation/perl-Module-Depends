@@ -1,15 +1,15 @@
 %define upstream_name    Module-Depends
-%define upstream_version 0.15
+%define upstream_version 0.16
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Intrusive discovery of distribution dependencies
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Module/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Module/Module-Depends-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Class::Accessor::Chained)
@@ -62,4 +62,5 @@ make test
 
 * Tue Jun 30 2009 cpan2dist 0.14-1mdv
 - initial mdv release, generated with cpan2dist
+
 
